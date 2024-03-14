@@ -1,0 +1,92 @@
+.mainDiv {
+  padding: 0;
+  margin: 0;
+}
+.lowerPartDestinationChild {
+  display: flex;
+  height: 30px;
+  background: #e8f7ea;
+  padding-right: 5px;
+}
+.lowerPartDestinationChild > img {
+  height: 20px;
+  margin-top: 5px;
+}
+
+.lowerPartDestinationChild > span {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+.knowMore {
+  width: 70%;
+}
+.train-inquiry {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inquiry-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.inquiry-title h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.inquiry-title p {
+  font-size: 16px;
+  color: #666;
+}
+
+.inquiry-title p br {
+  display: none;
+}
+
+.inquiry-features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inquiry-features .feature {
+  flex-basis: 23%;
+  text-align: center;
+  margin-right: 2%;
+}
+
+.inquiry-title h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+}
+
+.inquiry-features .feature p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.inquiry-features .feature i {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .inquiry-features {
+    flex-wrap: wrap;
+  }
+
+  .inquiry-features .feature {
+    flex-basis: 48%;
+  }
+}
