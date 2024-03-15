@@ -44,6 +44,65 @@ export default function Bus() {
 
   return (
     <div className={styles.mainDiv}>
+
+<style>
+        {`
+          .input-from {
+            font-size: 18px;
+          }
+
+          .bus-headline-h1 {
+            font-size: 36px;
+          }
+
+          .datewrapper {
+            display: flex;
+            align-items: center;
+          }
+
+          .inp-date {
+            width: 150px;
+          }
+
+          .date-tomorrow {
+            margin-left: 20px;
+          }
+
+          @media only screen and (max-width: 600px) {
+            .input-from {
+              font-size: 12px;
+            }
+
+            .bus-headline-h1 {
+              font-size: 24px;
+            }
+
+            .inp-date {
+              width: 120px;
+            }
+          }
+
+          @media only screen and (min-width: 601px) and (max-width: 1024px) {
+            .input-from {
+              font-size: 16px;
+            }
+
+            .bus-headline-h1 {
+              font-size: 30px;
+            }
+
+            .inp-date {
+              width: 130px;
+            }
+          }
+
+          /* Adjust image responsiveness as needed */
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+        `}
+      </style>
       <div className="Home">
         <div className="background-col"></div>
         <div className="background-col2"></div>

@@ -11,7 +11,7 @@ export default function Hotelfooter() {
           <div className="bottomLinks" style={{textAlign:"left"}}>
               
               <div>
-                  <p style={{fontSize:"21px"}}>Our Products</p>
+                  <p className='links'>Our Products</p>
                   <div className="links">
                   <a href>Domestic Hotels</a>
                   <a href>International Hotels</a>
@@ -25,7 +25,7 @@ export default function Hotelfooter() {
                   </div>
               </div> 
               <div>
-                  <p style={{fontSize:"21px"}}>Company</p>
+                  <p className='links'>Company</p>
 
                   <div className="links">
                     <Link to="/about"><a href>About US</a></Link>
@@ -44,7 +44,7 @@ export default function Hotelfooter() {
                       </div>
               </div>   
               <div>
-                  <p style={{fontSize:"21px"}}>Travel Resources</p>
+                  <p className='links'>Travel Resources</p>
                   <div className="links">
                       <a href>Popular Bus Routes</a>
                       <a href>Airport Cabs</a>
@@ -57,7 +57,7 @@ export default function Hotelfooter() {
                       </div>
               </div>
               <div>
-                  <p style={{fontSize:"21px"}}>Trending Hotel Cities</p>
+                  <p className='links'>Trending Hotel Cities</p>
                   <div className="links">
                       <a href>Hotels in Goa</a>
                       <a href>Hotels in Delhi</a>
@@ -70,7 +70,7 @@ export default function Hotelfooter() {
                       </div>
               </div>
               <div>
-                  <p style={{fontSize:"21px"}}>Top Searched Hotels By Area</p>
+                  <p className='links'>Top Searched Hotels By Area</p>
                   <div className="links">
                       <a href>Hotels in Panchgani</a>
                       <a href>Hotels in Juhu</a>
@@ -83,7 +83,7 @@ export default function Hotelfooter() {
                       </div>
               </div>
               <div>
-                  <p style={{fontSize:"21px"}}>More Links</p>
+                  <p className='links'>More Links</p>
                   <div className="links">
                       <a href>Cheap Flights</a>
                       <a href>PNR Status</a>

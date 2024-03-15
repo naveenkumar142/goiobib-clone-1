@@ -11,7 +11,7 @@ export default function Busfooter() {
           <div className="bottomLinks" style={{textAlign:"left"}}>
               
               <div>
-                  <p style={{fontSize:"21px"}}>Our Products</p>
+                  <p className='links'>Our Products</p>
                   <div className="links">
                   <a href>Domestic Hotels</a>
                   <a href>International Hotels</a>
@@ -25,10 +25,10 @@ export default function Busfooter() {
                   </div>
               </div> 
               <div>
-                  <p style={{fontSize:"21px"}}>Company</p>
+                  <p className='links'>Company</p>
 
                   <div className="links">
-                    <Link to="/about"><a href>About US</a></Link>
+                    <Link to="/about" className='links'><a href>About US</a></Link>
                       
                       <a href>Terms & Conditions</a>
                       <a href>User Agreement</a>
@@ -44,7 +44,7 @@ export default function Busfooter() {
                       </div>
               </div>   
               <div>
-                  <p style={{fontSize:"21px"}}>Travel Resources</p>
+                  <p className='links'>Travel Resources</p>
                   <div className="links">
                       <a href>Popular Bus Routes</a>
                       <a href>Airport Cabs</a>
@@ -57,7 +57,7 @@ export default function Busfooter() {
                       </div>
               </div>
               <div>
-                  <p style={{fontSize:"21px"}}>Popular Bus Cities</p>
+                  <p className='links'>Popular Bus Cities</p>
                   <div className="links">
                       <a href>Manali Bus Tickets</a>
                       <a href>Kolkata Bus Tickets</a>
@@ -71,7 +71,7 @@ export default function Busfooter() {
                       </div>
               </div>
               <div>
-                  <p style={{fontSize:"21px"}}>Popular Bus Operators</p>
+                  <p className='links'>Popular Bus Operators</p>
                   <div className="links">
                       <a href>Goldline super deluxe Bus</a>
                       <a href>Extacia business class Bus</a>
@@ -87,7 +87,7 @@ export default function Busfooter() {
                       </div>
               </div>
               <div>
-                  <p style={{fontSize:"21px"}}>More Links</p>
+                  <p className='links'>More Links</p>
                   <div className="links">
                       <a href>Cheap Flights</a>
                       <a href>PNR Status</a>
@@ -160,7 +160,69 @@ export default function Busfooter() {
                   {/* <h6 style={{marginTop:20}}>Designed by Naveen Kumar A</h6> */}
           </div>
           {/* <p>Designed By Naveen Kumar A</p> */}
+          <style jsx>{`
+        .bus-footer {
+          padding: 20px;
+          background-color: #f2f2f2;
+          text-align: center;
+        }
 
+        .top {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .logo img {
+          max-width: 100px;
+        }
+
+        .businesses {
+          display: flex;
+          justify-content: space-between;
+          width: 200px;
+        }
+
+        .businesses img {
+          max-width: 50px;
+          margin: 0 10px;
+        }
+
+        .bottom {
+          margin-top: 20px;
+        }
+
+        /* Media queryfor screens smaller than 768px */
+        @media (max-width: 767px) {
+          .bus-footer h1 {
+            font-size: 1.5rem;
+          }
+
+          .bus-footer p {
+            font-size: 1rem;
+          }
+
+          .bus-footer img {
+            max-width: 100%;
+          }
+        }
+ 
+        /* Media query for screens smaller than 480px */
+        @media (max-width: 479px) {
+          .bus-footer h1 {
+            font-size: 1.2rem;
+          }
+
+          .bus-footer p {
+            font-size: 0.8rem;
+          }
+
+          .bus-footer img {
+            max-width: 60%;
+          }
+        }
+      `}</style>
+ 
           </>
   )
 }

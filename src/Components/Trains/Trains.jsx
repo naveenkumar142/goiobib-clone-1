@@ -187,54 +187,33 @@ export default function Trains() {
       <div style={{alignItems:"center",textAlign:"center"}}>
         <img  src={train2}/>
       </div>
-      <div style={{backgroundColor:"lightblue",margin:"10px",borderRadius:"20px",paddingBottom:"40px",paddingTop:"10px"}}>
-        <h2 style={{textAlign:"center",marginTop:"10px"}}>Railways inquiry just a click away!</h2>
-        <div style={{ ...divStyle }}>
-    <div style={{
-      ...buttonStyle,
-      flexBasis: '23%',
-      marginRight: '1%',
-      boxShadow: '5px 5px 8px rgba(0, 0, 0, 0.7)'
-    }}>
+      {/* <div style={{ backgroundColor: "lightblue", margin: "10px", borderRadius: "20px", paddingBottom: "40px", paddingTop: "10px" }}>
+  <h2 style={{ textAlign: "center", marginTop: "10px" }}>Railways inquiry just a click away!</h2>
+  <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
+    <div style={{ flexBasis: 'calc(23% - 10px)', marginRight: '10px', boxShadow: '5px 5px 8px rgba(0, 0, 0, 0.7)', marginBottom: '20px', backgroundColor: '#ffffff' }}>
       <h3 style={{ marginTop: '0', marginBottom: '10px', color: '#4d4d4d' }}>Live Train Status</h3>
-      <p style={{ color: '#4d4d4d' }}>Railways inquiry just a click away!</p>
-      <FontAwesomeIcon icon={faArrowRight} style={{color:"lightblue",fontSize:"20px",textAlign:"start",alignItems:"start",marginTop:"30px"}}/>
-  
+      <p style={{ marginBottom: '10px', color: '#4d4d4d' }}>Railways inquiry just a click away!</p>
+      <FontAwesomeIcon icon={faArrowRight} style={{ color: "lightblue", fontSize: "20px", textAlign: "start", alignItems: "start", marginTop: "30px" }} />
     </div>
-    <div style={{
-      ...buttonStyle,
-      flexBasis: '23%',
-      marginRight: '1%',
-      boxShadow: '5px 5px 8px rgba(0, 0, 0, 0.7)'
-    }}>
+    <div style={{ flexBasis: 'calc(23% - 10px)', marginRight: '10px', boxShadow: '5px 5px 8px rgba(0, 0, 0, 0.7)', marginBottom: '20px', backgroundColor: '#ffffff' }}>
       <h3 style={{ marginTop: '0', marginBottom: '10px', color: '#4d4d4d' }}>Coach & Seat Position</h3>
       <p style={{ marginBottom: '10px', color: '#4d4d4d' }}>View coach & seat layout of the train you wish to</p>
-      <FontAwesomeIcon icon={faArrowRight} style={{color:"lightblue",fontSize:"20px",textAlign:"start",alignItems:"start",marginTop:"5px"}}/>
-      <FontAwesomeIcon icon={faArrowRight} />
+      <FontAwesomeIcon icon={faArrowRight} style={{ color: "lightblue", fontSize: "20px", textAlign: "center", alignItems: "center", marginTop: "5px" }}/>
     </div>
-    <div style={{
-      ...buttonStyle,
-      flexBasis: '23%',
-      marginRight: '1%',
-      boxShadow: '5px 5px 8px rgba(0, 0, 0, 0.7)'
-    }}>
+    <div style={{ flexBasis: 'calc(23% - 10px)', marginRight: '10px', boxShadow: '5px 5px 8px rgba(0, 0, 0, 0.7)', marginBottom: '20px', backgroundColor: '#ffffff' }}>
       <h3 style={{ marginTop: '0', marginBottom: '10px', color: '#4d4d4d' }}>PNR Status</h3>
       <p style={{ marginBottom: '10px', color: '#4d4d4d' }}>Check PNR Status effortlessly</p>
-      <FontAwesomeIcon icon={faArrowRight} style={{color:"lightblue",fontSize:"20px",textAlign:"start",alignItems:"start",marginTop:"20px"}}/>
+      <FontAwesomeIcon icon={faArrowRight} style={{ color: "lightblue", fontSize: "20px", textAlign: "start", alignItems: "start", marginTop: "20px" }} />
     </div>
-    <div style={{
-      ...buttonStyle,
-      flexBasis: '29%',
-      marginRight: '500px',
-      boxShadow: '5px 5px 8px rgba(0, 0, 0, 0.7)'
-    }}>
+    <div style={{ flexBasis: 'calc(29% - 10px)', boxShadow: '5px 5px 8px rgba(0, 0, 0, 0.7)', marginBottom: '20px', backgroundColor: '#ffffff' }}>
       <h3 style={{ marginTop: '0', marginBottom: '10px', color: '#4d4d4d' }}>Platform Locator</h3>
       <p style={{ marginBottom: '10px', color: '#4d4d4d' }}>Know the platform for your train</p>
-      <FontAwesomeIcon icon={faArrowRight} style={{color:"lightblue",fontSize:"20px",textAlign:"start",alignItems:"start"}}/>
+      <FontAwesomeIcon icon={faArrowRight} style={{ color: "lightblue", fontSize: "20px", textAlign: "start", alignItems: "start" }} />
       <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
     </div>
   </div>
-      </div>
+</div> */}
+
       <div className="popularBusRoutesHeading">
         <h2 style={{fontSize:"21px"}}>Popular Train Routes</h2>
       </div >
